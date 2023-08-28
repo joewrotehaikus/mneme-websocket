@@ -1,0 +1,27 @@
+{
+  "name": "mnemewebsocket",
+  "version": "1.0.0",
+  "description": "A web socket server for Mneme (in mnemefeast repository) to connect to. The web socket server will update client components and pages when there is a relevant change in the database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joewrotehaikus/mnemewebsocket.git"
+  },
+  "author": "joewrotehaikus",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/joewrotehaikus/mnemewebsocket/issues"
+  },
+  "homepage": "https://github.com/joewrotehaikus/mnemewebsocket#readme",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
